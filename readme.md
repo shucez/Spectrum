@@ -9,14 +9,8 @@ Should you have any questions please contact Shuce: shuce@ualberta.ca
 ## General Methods
   1. Right-click `test/raw.txt` to open in MS Excel, paste your data in, and save. Your data will be saved in tab-delimited formats.
   2. First time you run the script with `do_norm` set to FALSE. You can find the peak heights in the summary, which you may want to use as your normalization factors. Edit `norm_vec` accordingly, and then turn the `do_norm` to TRUE or 1.
+  3. General users should focus on the parameters part. Do not mess up with the functions. If you would like to implement new tasks, write new functions for them.
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-rm(list = ls())
-library(plyr)
-library(ggplot2)
-library(reshape2)
-```
 
 ## Setting parameters
 
